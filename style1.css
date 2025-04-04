@@ -1,0 +1,91 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body with gradient background and center alignment */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container for content */
+  .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  /* Header style */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Button styles */
+  button {
+    background: #5563DE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #4153c9;
+  }
+  
+  /* Flex containers for buttons and controls */
+  .buttons, .controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Output area styling */
+  #output p {
+    margin: 10px 0;
+    padding: 8px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+  }
+  
+  /* Message type styles */
+  #output p.status {
+    font-style: italic;
+    color: #ffd700;
+  }
+  
+  #output p.user {
+    text-align: left;
+  }
+  
+  #output p.assistant {
+    text-align: right;
+  }
+  
+  /* Speed display style */
+  #speed-display {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
