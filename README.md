@@ -83,27 +83,6 @@ Open your web browser and navigate to http://127.0.0.1:5000.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # How It Works
 
 **=> User Interface:**
