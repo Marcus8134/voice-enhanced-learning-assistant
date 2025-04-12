@@ -38,7 +38,7 @@ requests, re, emoji
 
 # Project Structure
 
-(![image](https://github.com/user-attachments/assets/49738013-3743-44e0-9569-5d91943f1f85)
+![image](https://github.com/user-attachments/assets/49738013-3743-44e0-9569-5d91943f1f85)
 
 
 
