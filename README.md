@@ -38,7 +38,8 @@ requests, re, emoji
 
 # Project Structure
 
-![image](https://github.com/user-attachments/assets/16934466-1e9b-48d6-9afb-e682108aed6c)
+![image](![image](https://github.com/user-attachments/assets/49738013-3743-44e0-9569-5d91943f1f85)
+
 
 
 # Setup and Installation
