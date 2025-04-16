@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech Input & Output Assistant</title>
+  <link rel="stylesheet" href="static/style1.css">
+  
+  <style>
+    body { font-family:Verdana, Geneva, Tahoma, sans-serif; padding: 20px; }
+    button { margin: 5px; padding: 10px 15px; font-size: 16px; }
+    #output p { margin: 5px 0; }
+    .controls { margin-top: 10px; }
+  </style>
+</head>
+<body>
+    <h1>Voice Learn</h1>
+  <button id="start-btn">Start Listening</button>
+  <button id="stop-btn">Stop Listening</button>
+  <div class="controls">
+    <button id="pause-btn">Pause Speech</button>
+    <button id="resume-btn">Resume Speech</button>
+    <button id="inc-speed-btn">Increase Playback Speed</button>
+    <span id="speed-display">Speed: 1.0x</span>
+  </div>
+  <div id="output"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
